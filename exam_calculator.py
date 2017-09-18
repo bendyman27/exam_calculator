@@ -181,5 +181,9 @@ class CalcPage(Frame):
         self.grid_forget()
         self.destroy()   
 
-app = Exam_calculator()
-app.mainloop()
+def main():
+     app = Exam_calculator()
+     app.mainloop()
+     
+if __name__ == '__main__':
+     main()
